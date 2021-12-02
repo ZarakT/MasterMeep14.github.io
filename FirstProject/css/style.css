@@ -1,0 +1,88 @@
+body {
+    background-color: lightcyan;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: lightgoldenrodyellow;
+    margin: 200px auto 0 auto;
+    animation-name: square-to-circle;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    margin: 200px auto 0 auto;
+    animation-name: color-square;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count:infinite;
+    animation-timing-function:cubic-bezier(1.5, 1.5, 1.5, 1.5);
+    animation-direction: alternate;
+
+}
+
+
+
+
+@keyframes color-square{
+    0%{
+        background: black;
+        transform: rotate(0deg)
+    }
+    25% {
+        background: lightskyblue;
+        transform: rotate(90deg);
+    }
+    50% {
+        background: paleturquoise;
+        transform: rotate(180deg);
+    }
+    75%{
+        background: cornflowerblue;
+        transform: rotate(270deg);
+    }
+    100%{
+        background: darkcyan;
+        transform: rotate(360deg);
+    }
+}
+
+
+
+@keyframes square-to-circle{
+    0% {
+        border-radius: 0;
+        background: lightsalmon;
+        transform: rotate(0dg)
+
+    } 
+    25% {
+        border-radius: 50% 0 0 0;
+        background: darksalmon;
+        transform: rotate(45deg);
+    } 
+    50% {
+        border-radius: 50% 50% 0 0;
+        background: salmon;
+        transform: rotate(90deg);
+    }
+    75% {
+        border-radius: 50% 50% 50% 0;
+        background: darksalmon;
+        transform: rotate(135deg);
+    }
+    100% {
+        border-radius:50%;
+        background: lightsalmon;
+        transform: rotate(180deg);
+    }
+
+
+}

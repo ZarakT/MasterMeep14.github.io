@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+ 
+<body>
+    <div class="backbox">
+        <h1><u>Centering in css</u></h1>
+        <p>Centering in css has always been difficult. As CSS-Tricks puts it,</p>
+        <p>"Centering things in CSS is the poster child of CSS complaining. Why does it have to be so hard? They jeer. I think the issue isnt that its difficult to do, but in that there so many different ways of doing it, depending on the situation, its
+            hard to know which to reach for."</p>
+        <p>This website will demonstrate how to center:</p>
+        <ul>
+            <li>One block level element</li>
+        </ul>
+        <p>And provide resources to learn how to center:</p>
+        <ul>
+            <li>Several block level elements (via CSS-Tricks)</li>
+        </ul>
+        <h3>This form of centering is particularly useful when learning how to build smaller scale websites, as this works most effectively when paired with small and compact content</h3>
+    </div>
+
+
+    <div class="backbox">
+        <div class="part-one">
+            <h1 class="instrusctions-text"><u>Demo</u></h1>
+            <h2>Part 1: Writing the HTML</h2>
+            <p>The HTML for this website is very simple. Here are the steps to complete it:</p>
+            <ol>
+                <li>! tab to get your normal HTML layout set</li>
+                <li>name the Document</li>
+                <li>link your CSS</li>
+                <li>Inside of the body make a div with text of your choice (The example uses "I'm a block level element and centered")</li>
+                <li>Double check it matches the document shown below</li>
+            </ol>
+            <div class="grid-centered">
+                <div class="boxone">
+                    <h2>HTML:</h2>
+                </div>
+                <div class="code">
+                    <pre>
+                        <code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html lang="en"&gt;
+                            
+                &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                &lt;title&gt; Demo 2.2.22&lt;/title&gt;
+                &lt;link rel="stylesheet" href="css/style.css"&gt;
+                &lt;/head&gt;
+                
+                &lt;body&gt;
+                &lt;div class="center"&gt;
+                I'm a block level element and centered
+                &lt;/div&gt;
+                &lt;/body&gt;
+                            
+                &lt;/html&gt;
+                        </code>
+                    </pre>
+                </div>
+                <h2>When done, create a css file inside of a css folder which is named to whatever you had linked in your HTML doc</h2>
+            </div>
+        </div>
+
+        <div class="part-two">
+            <h2>Part 2: CSS</h2>
+            <p>This is the CSS for the previously shown HTML</p>
+            <p>There are no clear instructions for this section, as CSS can be freer with colors, themes, etc.</p>
+            <p>However, there are some requirements, which are:</p>
+            <ol>
+                <li>colors of some kind are shown in each section</li>
+                <li>Your body has font-size 80%</li>
+                <li>The parts for inline-block-center, inline-block-center div, and flex-center</li>
+            </ol>
+            <div class="grid-centered">
+                <div class="boxone">
+                    <h2>CSS:</h2>
+                </div>
+                <div class="code">
+                    <pre>
+                        <code>
+                            body {
+                                background: orange;
+                                font-size: 80%;
+                            }
+                            
+                            main {
+                                background: white;
+                                margin: 20px 0;
+                                padding: 20px;
+                            }
+                            
+                            main div {
+                                background: black;
+                                color: white;
+                                padding: 15px;
+                                max-width: 125px;
+                                margin: 5px;
+                            }
+                            
+                            .inline-block-center {
+                                text-align: center;
+                            }
+                            
+                            .inline-block-center div {
+                                display: inline-block;
+                                text-align: left;
+                            }
+            
+                            .flex-center {
+                                display: flex;
+                                justify-content: center;
+                            }
+                        </code>
+                    </pre>
+                </div>
+            </div>
+            <h1>If you wish to expand on this skill more, use <a href="https://css-tricks.com/centering-css-complete-guide/">this</a> link to find a further demo which uses multiple elements</h1>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h3>At the end, you should have a website that meets the requirements somewhat, but there is not a lot of set requirements. So long as the mastery of centering is shown it's good</h3>
+
+
+    <h3>Here is the code for both demos in case you need it</h3>
+    <h2>Demo 1:</h2>
+    <div class="grid">
+        <div class="boxone">
+            <h2>HTML:</h2>
+        </div>
+        <div class="boxtwo">
+            <h2>CSS:</h2>
+        </div>
+        <div class="code">
+            <pre>
+                <code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+                    
+        &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;title>Demo 2.2.22&lt;/title&gt;
+        &lt;link rel="stylesheet" href="css/style.css"&gt;
+        &lt;/head&gt;
+        
+        &lt;body&gt;
+        &lt;div class="center"&gt;
+        I'm a block level element and centered
+        &lt;/div&gt;
+        &lt;/body&gt;
+                    
+        &lt;/html&gt;
+                </code>
+            </pre>
+        </div>
+
+        <div class="code-css">
+            <pre>
+            <code>
+                body {
+                    background: lightblue;
+                }
+                
+                main {
+                    background: white;
+                    margin: 20px 0;
+                    padding: 10px;
+                }
+                
+                .center {
+                    margin: 0 auto;
+                    width: 200px;
+                    background: black;
+                    padding: 20px;
+                    color: white;
+                }
+            </code>
+        </pre>
+        </div>
+    </div>
+    <div class="backbox2">
+        <h2>Output:</h2>
+        <img src="images/websiteone.JPG" alt="first website">
+        <br>
+    </div>
+    <h2>Demo 2:</h2>
+    <div class="grid">
+        <div class="boxone">
+            <h2>HTML:</h2>
+        </div>
+        <div class="boxtwo">
+            <h2>CSS:</h2>
+        </div>
+        <div class="code">
+            <pre>
+                <code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+                    
+        &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;title&gt;Demo 2.2.22&lt;/title&gt;
+        &lt;link rel="stylesheet" href="css/styletwo.css"&gt;
+        &lt;/head&gt;
+                    
+        &lt;body&gt;
+        &lt;main class="inline-block-center"&gt;
+        &lt;div
+        I'm an element that is block-like with my siblings and we're centered in
+        a row.
+        &lt;/div&gt;
+        &lt;div&gt;
+        I'm an element that is block-like with my siblings and we're centered in
+        a row. I have more content in me than my siblings do.
+        &lt;/div&gt;
+        &lt;div&gt;
+        I'm an element that is block-like with my siblings and we're centered 
+        in a row. I have more content in me than my siblings do.
+        &lt;/div&gt;
+        &lt;/main&gt;
+        &lt;main class="flex-center"&gt;
+        &lt;div&gt;
+        I'm an element that is block-like with my siblings and we're centered in
+        a row.
+        &lt;/div&gt;
+        &lt;div&gt;
+        I'm an element that is block-like with my siblings and we're centered in 
+        a row. I have more content in me than my siblings do.
+        &lt;/div&gt;
+        &lt;div&gt;
+        I'm an element that is block-like with my siblings and we're centered in 
+        a row.
+        &lt;/div&gt;
+        &lt;/main&gt;
+                           
+        &lt;/body&gt;         
+        &lt;/html&gt;
+                </code>
+            </pre>
+        </div>
+
+        <div class="code-css">
+            <pre>
+            <code>
+                body {
+                    background: orange;
+                    font-size: 80%;
+                }
+                
+                main {
+                    background: white;
+                    margin: 20px 0;
+                    padding: 20px;
+                }
+                
+                main div {
+                    background: black;
+                    color: white;
+                    padding: 15px;
+                    max-width: 125px;
+                    margin: 5px;
+                }
+                
+                .inline-block-center {
+                    text-align: center;
+                }
+                
+                .inline-block-center div {
+                    display: inline-block;
+                    text-align: left;
+                }
+
+                .flex-center {
+                    display: flex;
+                    justify-content: center;
+                }
+            </code>
+        </pre>
+        </div>
+    </div>
+    <div class="backbox2">
+        <h2>Output:</h2>
+        <img class="resized" src="images/demo 2.JPG" alt="first website">
+    </div>
+</body>
+
+
+<footer>
+    <p>A website by: Zarak T</p>
+    <p>Contact at: <a href="mailto:ztareen@eastsideprep.org">ztareen@eastsideprep.org</a></p>
+</footer>
+
+</html>

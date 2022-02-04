@@ -1,0 +1,80 @@
+.boxone {
+    background: cadetblue;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxtwo {
+    background: cadetblue;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.code {
+    background: gray;
+    text-align: left;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.code-css {
+    background: gray;
+    text-align: left;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: lightblue;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+}
+
+.grid-centered {
+    display: grid;
+    grid-column-gap: 5px;
+    grid-row-gap: 5x;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.backbox {
+    background-color: cadetblue;
+    padding: 0px;
+    margin: 0px;
+}
+
+.backbox2 {
+    background-color: steelblue;
+}
+
+.resized {
+    height: 300px;
+    width: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 0px;
+    background-color: lightgray;
+    display: block;
+    color: black;
+    text-decoration: none;
+}

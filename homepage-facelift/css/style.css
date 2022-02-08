@@ -202,3 +202,12 @@ body{
     width: 50%;
     height: auto;
 }
+.footer {
+background-color: darkgray;
+color: white;
+padding: 10px;
+clear: both;
+margin-top: 10px;
+width: 60%;
+margin: 0 auto;
+}

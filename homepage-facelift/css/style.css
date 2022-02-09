@@ -95,7 +95,7 @@ h2 {
 
 .firstbox {
     background-color: blue;
-    background-image: url("");
+    background-image: url(""); 
     opacity: 70%;
     float: left;
     width: 98%;

@@ -95,11 +95,13 @@ h2 {
 
 .firstbox {
     background-color: blue;
-    background-image: url(https://raw.githubusercontent.com/MasterMeep14/MasterMeep14.github.io/main/homepage-facelift/images/thing-1.jpg); 
+    background-image: url(https://raw.githubusercontent.com/MasterMeep14/MasterMeep14.github.io/main/homepage-facelift/images/thing-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 60vw;
     opacity: 70%;
     float: left;
     width: 98%;
-    color: white;
+    color: black;
     padding: 1%;
     margin-top: 0%;
     grid-column-start: 1;
@@ -203,11 +205,20 @@ body{
     height: auto;
 }
 .footer {
-background-color: darkgray;
+background-color: black;
+text-decoration: none;
+font-size: 1.5vw;
 color: white;
-padding: 10px;
+padding: 0px;
 clear: both;
-margin-top: 10px;
-width: 60%;
-margin: 0 auto;
+margin-top: 0px;
+width: 100%;
+margin: 0;
+}
+
+.phone-number2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    margin-top: 0%;
+    font-size: 1.5vw;
 }

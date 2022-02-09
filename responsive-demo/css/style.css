@@ -9,7 +9,7 @@ body{
     background-color: slategray;
     color: white;
     text-align: center;
-    padding: 20px auto;
+    padding: 1.5vw auto;
 }
 .left{
     float: left;
@@ -18,15 +18,15 @@ body{
 .main{
     float: left;
     width: 60%;
-    padding: 0 20px;
+    padding: 0 1.5vw;
 }
 .right{
     float: right;
     width: 20%;
     background-color: darkgray;
     color: white;
-    padding: 15px;
-    margin-top: 10px;
+    padding: 1.171875vw;
+    margin-top: 0.78125vw;
 }
 .nav a {
     background-color: darkgray;

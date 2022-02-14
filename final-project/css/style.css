@@ -1,11 +1,21 @@
+body{
+    background-color:darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.title-font{
+    color: black;
+}
+
 .first-float{
     float: right;
-    width: 7b0%;
-    background-color: black;
+    width: 68%;
+    background-color: cadetblue;
     color: white;
     padding: 1%;
-    margin-top: 10px;
-    border-radius: 10px;
+    margin: 0.78125vw;
+    border-radius:  0.78125vw;
     text-decoration: none;
 }
 
@@ -17,17 +27,18 @@
 
 .navholder {
     text-align: center;
-    margin: 20px 20px;
-    border-radius: 10px;
+    margin: 3% 3%;
+    border-radius:  0.78125vw;
+    padding: 0.5vw;
 }
 
 .navlink {
     color: white;
-    background-color: black;
+    background-color:darkcyan;
     text-align: center;
-    padding: 20px;
+    padding: 1.5vw;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius:  0.78125vw;
 }
 
 .navlink a {
@@ -37,33 +48,135 @@
     align-self: center;
     padding: 10px;
     float: right;
-    border-radius: 10px;
+    border-radius:  0.78125vw;
 }
 
 .navlink:hover {
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-color: darkcyan;
     cursor: pointer;
 }
 
 .first-content{
     float: left;
-    width: 80%;
-    background-color: darkcyan;
+    width: 77%;
+    background-color: lightblue;
+    border-radius:  0.78125vw;
+    padding: 1vw;
 }
 .second-content{
     float: left;
-    width: 80%;
-    background-color: darkred;
+    width: 77%;
+    background-color: cadetblue;
+    border-radius:  0.78125vw;
+    padding: 1vw;
 }
 .third-content{
     float: left;
-    width: 80%;
-    background-color: darkgray;
+    width: 77%;
+    background-color:darkslategray;
+    border-radius:  0.78125vw;
+    padding: 1vw;
 }
 .right-content{
     float: right;
-    width: 20%;
-    background-color: lightpink;
+    width: 18.5%;
+    background-color: lightblue;
+    border-radius:  0.78125vw;
+    padding: 1vw;
 }
+.last-content{
+    float: left;
+    width: 100%;
+    background-color:darkslategray;
+    border-radius:  0.78125vw;
+    margin-top: 1vw;
+}
+
+.main-div{
+    float: left;
+    width: 100%;
+    background-color: cadetblue;
+    color: black;
+    border-radius:  0.78125vw;
+}
+
+.content-1{
+    float: left;
+    width: 48.75%;
+    padding: 0.5vw;
+    background-color: lightblue;
+    border-radius:  0.78125vw;
+}
+.content-2{
+    float: right;
+    width: 48.75%;
+    padding: 0.5vw;
+    background-color: lightblue;
+    border-radius:  0.78125vw;
+}
+
+h2 {
+    display: block;
+    font-size: 2vw;
+    margin-block-start: 1vw;
+    text-decoration: dotted;
+}
+
+h1{
+    display: block;
+    font-size: 3vw;
+    margin-block-start: 1vw;
+    text-decoration: none;
+}
+
+.image-sizing-2{
+    width: 30vw;
+    height: auto;
+}
+
+.image-sizing-3{
+    width: 60vw;
+    height: auto;
+}
+
+.button{
+    background-color: darkcyan;
+    border: 0.25vw solid black;
+    color: white;
+    padding: 1vw 3vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.25vw;
+    transition-duration: 0.6s;
+    text-decoration: none;
+}
+
+
+.button:hover{
+    background-color: black;
+}
+
+li{
+    font-size: 2vw;
+}
+
+.image-sizing-1{
+    width: 10vw;
+    height: auto;
+}
+
+.footer {
+    background-color: darkslategray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    clear: both;
+    padding: 0.25vw;
+    margin-top: 0px;
+    width: 100%;
+    margin: 0;
+} 

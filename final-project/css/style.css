@@ -1,8 +1,10 @@
 body{
-    background-color:darkcyan;
+    background-color:cadetblue;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
+
+
 
 .title-font{
     color: black;
@@ -11,7 +13,7 @@ body{
 .first-float{
     float: right;
     width: 68%;
-    background-color: cadetblue;
+    background-color: darkcyan;
     color: white;
     padding: 1%;
     margin: 0.78125vw;
@@ -22,6 +24,8 @@ body{
 .title-float{
     float: left;
     width: 28%;
+    background-color: darkcyan;
+    border-radius:  0.78125vw;
 }
 
 
@@ -60,38 +64,43 @@ body{
 
 .first-content{
     float: left;
-    width: 77%;
-    background-color: lightblue;
+    width: 67%;
+    background-color: cadetblue;
     border-radius:  0.78125vw;
-    padding: 1vw;
+    padding: 0.5vw;
 }
 .second-content{
     float: left;
-    width: 77%;
+    width: 67%;
+    margin-top: 1vw;
     background-color: cadetblue;
     border-radius:  0.78125vw;
-    padding: 1vw;
+    padding: 0.5vw;
 }
 .third-content{
     float: left;
-    width: 77%;
-    background-color:darkslategray;
+    width: 67%;
+    background-color: cadetblue;
     border-radius:  0.78125vw;
-    padding: 1vw;
+    margin-top: 1vw;
+    padding: 0.5vw;
 }
 .right-content{
     float: right;
-    width: 18.5%;
-    background-color: lightblue;
+    width: 30%;
+    background-color: cadetblue;
     border-radius:  0.78125vw;
-    padding: 1vw;
+    margin-top: 1vw;
+    padding: 0vw;
+    margin-bottom: 1vw;
 }
 .last-content{
     float: left;
     width: 100%;
-    background-color:darkslategray;
+    background-color: cadetblue;
     border-radius:  0.78125vw;
     margin-top: 1vw;
+    padding: 0.5vw;
 }
 
 .main-div{
@@ -100,21 +109,22 @@ body{
     background-color: cadetblue;
     color: black;
     border-radius:  0.78125vw;
+    padding: 0.5vw;
 }
 
 .content-1{
     float: left;
     width: 48.75%;
-    padding: 0.5vw;
-    background-color: lightblue;
+    background-color: cadetblue;
     border-radius:  0.78125vw;
+    padding: 0.5vw;
 }
 .content-2{
     float: right;
     width: 48.75%;
-    padding: 0.5vw;
-    background-color: lightblue;
+    background-color: cadetblue;
     border-radius:  0.78125vw;
+    padding: 0.5vw;
 }
 
 h2 {
@@ -180,3 +190,51 @@ li{
     width: 100%;
     margin: 0;
 } 
+
+.footer-link {
+    color: white;
+    background-color: darkslategray;
+    text-align: center;
+    padding: 0.3vw;
+    border: 0.3vw solid darkcyan;
+    text-decoration: none;
+    border-radius:  0.78125vw;
+}
+
+.footer-info{
+    float: left 100%;
+    margin-bottom: 2%;
+}
+
+.footer-socials{
+    float: left 100%;
+    margin-bottom: 2%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-github{
+    background: black;
+    color: white;
+}
+
+.fa-linkedin{
+    background: #55ACEE;
+    color: white;
+}

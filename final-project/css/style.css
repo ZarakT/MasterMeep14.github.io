@@ -24,7 +24,7 @@ body{
 .title-float{
     float: left;
     width: 28%;
-    background-color: darkcyan;
+    background-color: rgb(0, 139, 139);
     border-radius:  0.78125vw;
 }
 
@@ -38,7 +38,7 @@ body{
 
 .navlink {
     color: white;
-    background-color:darkcyan;
+    background-color:rgba(0, 139, 139, 0);
     text-align: center;
     padding: 1.5vw;
     text-decoration: none;
@@ -58,71 +58,93 @@ body{
 .navlink:hover {
     text-decoration: none;
     color: black;
-    background-color: darkcyan;
+    background-color: cadetblue;
     cursor: pointer;
 }
 
 .first-content{
     float: left;
     width: 67%;
-    background-color: cadetblue;
+    background-color: rgb(111, 160, 161);
+    margin-top: 1vw;
     border-radius:  0.78125vw;
     padding: 0.5vw;
 }
+.picturebox {
+    background-image: url(https://raw.githubusercontent.com/MasterMeep14/MasterMeep14.github.io/main/homepage-facelift/images/thing-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 60vw;
+    opacity: 70%;
+    float: left;
+    width: 98%;
+    color: black;
+    padding: 1%;
+    margin-top: 0%;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    border-radius:  0.78125vw;
+}
+
+
 .second-content{
     float: left;
     width: 67%;
     margin-top: 1vw;
-    background-color: cadetblue;
+    background-color: rgb(52, 148, 151);
     border-radius:  0.78125vw;
     padding: 0.5vw;
 }
 .third-content{
     float: left;
     width: 67%;
-    background-color: cadetblue;
+    background-color: rgb(20, 131, 134);
     border-radius:  0.78125vw;
     margin-top: 1vw;
     padding: 0.5vw;
 }
 .right-content{
     float: right;
-    width: 30%;
-    background-color: cadetblue;
+    width: 25%;
+    background-color: rgba(65, 82, 90, 0.144);
     border-radius:  0.78125vw;
     margin-top: 1vw;
     padding: 0vw;
     margin-bottom: 1vw;
+    margin-right: 1vw;
 }
 .last-content{
     float: left;
     width: 100%;
-    background-color: cadetblue;
+    background-color: rgb(20, 71, 73);
     border-radius:  0.78125vw;
     margin-top: 1vw;
     padding: 0.5vw;
+    margin-bottom: 0.5vw;
 }
 
 .main-div{
     float: left;
     width: 100%;
-    background-color: cadetblue;
+    background-color: rgb(74, 142, 145);
     color: black;
     border-radius:  0.78125vw;
     padding: 0.5vw;
+    margin-top: 1vw;
 }
 
 .content-1{
     float: left;
+    margin-top: 1vw;
     width: 48.75%;
-    background-color: cadetblue;
+    background-color:rgb(121, 162, 163);
     border-radius:  0.78125vw;
     padding: 0.5vw;
 }
 .content-2{
     float: right;
     width: 48.75%;
-    background-color: cadetblue;
+    margin-top: 1vw;
+    background-color:rgb(121, 162, 163);
     border-radius:  0.78125vw;
     padding: 0.5vw;
 }
@@ -186,9 +208,10 @@ li{
     color: white;
     clear: both;
     padding: 0.25vw;
-    margin-top: 0px;
+    margin-top: 0vw;
     width: 100%;
     margin: 0;
+    border-radius:  0.78125vw;
 } 
 
 .footer-link {

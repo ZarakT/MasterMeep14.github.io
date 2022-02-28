@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final-website-Homepage</title>
     <link rel="stylesheet" href="css/style.css">
+    <!--I got this link from the internet to help me find icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="js/header.js">
 </head>
 <body>
         <div class="title-float">
@@ -26,8 +28,38 @@
         </div>
     <div class="first-content">
         <h2>Upcoming Graphic designer</h2>
-        <img class="image-sizing-2" src="images/final kanye album.png" alt="">
-        <p>Completed Graphic Design 1 and 2 at EPS, learn more <a href="about.html">here</a></p>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="images/final kanye album.png" style="height:30vw">
+                <div class="text">Kanye West Album Cover</div>
+              </div>
+              
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="images/Korea.jpg" style="height:30vw">
+                <div class="text">Graphic for North and South Korea</div>
+              </div>
+              
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="images/buisness card.JPG" style="height:23vw">
+                <div class="text">Buisness card</div>
+              </div>
+              
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              
+              </div>
+              <br>
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+              </div>
+                <p>Completed Graphic Design 1 and 2 at EPS, learn more <a href="about.html">here</a></p>
     </div>
     <div class="right-content">
         <!--Potentially switch nav w/ this and make title the entire way through-->
@@ -46,7 +78,8 @@
     </div>
     <div class="second-content">
         <h2>Talented Web designer</h2> 
-        <img class="image-sizing-2" src="images/website-example.JPG" alt="">
+        <h2><u>My Web 2 portfolio</u></h2>
+        <img src="images/web-design.JPG" alt="">
         <p>Taken Web design 1 and 2 from Eastside Prep and have further web experience. Learn more <a href="about.html">here</a></p>
     </div>
     <div class="right-content">
@@ -62,6 +95,7 @@
     </div>
     <div class="third-content">
         <h2>Aspiring Digital illustrator</h2>
+        <!--Make this a slideshow-->
         <img class="image-sizing-2" src="images/thing.JPG" alt="">
         <p>Well versed in Photoshop, taken online courses to further abilities. Learn more <a href="about.html">here</a></p>
     </div>
@@ -76,5 +110,34 @@
             <a href="#"><i class="fa fa-twitter"></i></a>
         </div>
     </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
 </body>
 </html>

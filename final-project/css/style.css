@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(48, 48, 48);
+    background-color: #172a3a;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin: 0;
@@ -10,6 +10,7 @@ body{
 .large-font{
     font-size: 5vw;
 }
+
 .title-font{
     color: black;
 }
@@ -64,12 +65,20 @@ body{
 .first-content{
     float: left;
     width: 67%;
-    background-color: rgb(66, 107, 109);
+    background-color: #508991;
     margin-top: 1vw;
     border-radius:  0.78125vw;
     padding: 0.5vw;
 }
 
+.first-content-2{
+    float: left;
+    width: 67%;
+    background-color: rgba(66, 107, 109, 0.6);
+    margin-top: 1vw;
+    border-radius:  0.78125vw;
+    padding: 0.5vw;
+}
 
 
 .container{
@@ -99,14 +108,14 @@ body{
     float: left;
     width: 67%;
     margin-top: 1vw;
-    background-color: rgb(66, 107, 109);
+    background-color: #508991;
     border-radius:  0.78125vw;
     padding: 0.5vw;
 }
 .third-content{
     float: left;
     width: 67%;
-    background-color: rgb(66, 107, 109);
+    background-color: #508991;
     border-radius:  0.78125vw;
     margin-top: 1vw;
     padding: 0.5vw;
@@ -125,7 +134,7 @@ body{
 .right-content-2{
     float: right;
     width: 31.5%;
-    background-color: rgb(51, 80, 82);
+    background-color: rgba(51, 80, 82, 0.6);
     border-radius:  0.78125vw;
     margin-top: 1vw;
     padding: 0vw;
@@ -136,7 +145,7 @@ body{
 .left-content{
     float: left;
     width: 31%;
-    background-color: rgb(16, 58, 59);
+    background-color: #0e7558;
     border-radius:  0.78125vw;
     margin-top: 1vw;
     padding: 0vw;
@@ -148,7 +157,7 @@ body{
 .last-content{
     float: left;
     width: 100%;
-    background-color: rgb(77, 116, 117);
+    background-color: #004346;
     border-radius:  0.78125vw;
     margin-top: 1vw;
     padding: 0.5vw;
@@ -158,18 +167,29 @@ body{
 .main-div{
     float: left;
     width: 100%;
-    background-color: rgb(74, 142, 145);
+    background-color: #004346;
     color: black;
     border-radius:  0.78125vw;
     padding: 0.5vw;
     margin-top: 1vw;
 }
 
+.main-div-2{
+    float: left;
+    width: 100%;
+    background-color: rgba(0, 67, 70, 0.6);
+    color: white;
+    border-radius:  0.78125vw;
+    padding: 0.5vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
 .content-1{
     float: left;
     margin-top: 1vw;
     width: 48.75%;
-    background-color:rgb(121, 162, 163);
+    background-color:#508991;
     border-radius:  0.78125vw;
     padding: 0.5vw;
 }
@@ -177,7 +197,7 @@ body{
     float: right;
     width: 48.75%;
     margin-top: 1vw;
-    background-color:rgb(121, 162, 163);
+    background-color:#508991;
     border-radius:  0.78125vw;
     padding: 0.5vw;
     margin-right: 1vw;
@@ -206,6 +226,12 @@ h1{
 .image-sizing-3{
     width: 60vw;
     height: auto;
+}
+
+.image-sizing-4{
+    width: 30vw;
+    height: auto;
+    border: 0.5vw solid gray ;
 }
 
 .button{
@@ -281,22 +307,32 @@ li{
 .fa-facebook {
     background: #3B5998;
     color: white;
+    border-radius:  0.78125vw;
 }  
 .fa-twitter {
     background: #55ACEE;
     color: white;
+    border-radius:  0.78125vw;
 }
 .fa-github{
     background: black;
     color: white;
+    border-radius:  0.78125vw;
 }
 
 .fa-linkedin{
     background: #55ACEE;
     color: white;
+    border-radius:  0.78125vw;
 }
 
 .fa-envelope{
+    background: rgb(95, 150, 153);
+    color: black;
+    border-radius:  0.78125vw;
+}
+
+.fa-phone{
     background: rgb(95, 150, 153);
     color: black;
     border-radius:  0.78125vw;
@@ -357,10 +393,13 @@ img {vertical-align: middle;}
 }
 
 
-.prev:hover, .next:hover {
+
+
+.prev:hover, .next:hover, prev-2:hover {
   background-color: rgb(74, 142, 145);
   padding: 0.25vw;
 }
+
 
 
 .text {
@@ -423,6 +462,15 @@ img {vertical-align: middle;}
   position: absolute;
   top: 0;
   margin-left: 17vw;
+}
+
+.numbertext-2{
+    color: black;
+    font-size: 1.5vw;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    margin-left: 1vw;
 }
 
 
@@ -515,9 +563,9 @@ img {vertical-align: middle;}
 }
 
 .gif-background {
-    background-image: url();
+    background-image: url(https://raw.githubusercontent.com/MasterMeep14/MasterMeep14.github.io/main/final-project/images/Chill%20Mario.gif);
     background-repeat: no-repeat;
-    background-size: auto auto;
+    background-size: auto;
     opacity: 100%;
     float: left;
     width: 100%;
@@ -529,3 +577,53 @@ img {vertical-align: middle;}
     border-radius:  0.78125vw;
 }
 
+.transparent-background{
+    background: rgba(124, 124, 124, 0.6);
+    border-radius:  0.78125vw;
+}
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.active {
+    background-color: rgb(75, 113, 116);
+    color: white;
+}
+
+.vert-nav{
+    float: right;
+    width: 15%;
+}

@@ -24,17 +24,93 @@
             <a href="contact.html" class="navlink">Contact</a>
         </div>
     </div>
-
-
-    <div class="gif-background">
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <div class="transparent-background">
+        <h1>Pricing</h1>
+        <h3>Thank you for taking a look at our pricing! I offer 2 options when purchasing art</h3>
+        <h3>You can either commision or buy art from my website</h3>
+        <h3>Both options are shown below. Please note that all purchases are final and we do not offer refunds.</h3>
     </div>
+        <div class="right-content-2">
+            <h1>Commisions</h1>
+            <p>Here are the options for commissioning work! Once you are sure of what you want commissioned, please use the google drive  <a style="color: white;" href="https://docs.google.com/forms/d/e/1FAIpQLScX3UTLe4qE0OdICkIESgsgf17yr1SmySEZPx19H8c599twYw/viewform?usp=sf_link" target="_blank" class="text-link">here</a>. If there are any issues or you would prefer to contact me personally, look  <a style="color: white;" href="contact.html" target="_blank" class="text-link">here</a>. Thanks once again for your interest!</p>
+            <p>Here are your options for commisions:</p>
+            <ol>
+                <li style="font-size: 1.5vw;"> <u>Personalized artpeice</u> <br> A modified version of a product seen on the left (Ex: Different album cover, Shoebox design, etc). <br> <h2>Price: $29.99</h2></li>
+                <li style="font-size: 1.5vw;"> <u>New concept/OC</u> <br> These are done per request and on a case by case basis. <h2>Price: $4.99-$99.99</h2></li>
+                <li style="font-size: 1.5vw;"> <u>Custom Animations</u> <br> Custom animations can include anything, such as landscapes, people, or watercolor. <h2>Price: $49.99-$149.99</h2> </li>
+                <li style="font-size: 1.5vw;"> <u>Video edits</u> <br> Video edits can be done for anything, such as sports, tv shows, gaming, etc. <h2>Price: $6.99 per minute</h2></li>
+            </ol>
+        </div>
+        <div class="first-content">
+            <h1>Current pieces</h1>
+            <p>I am selling my current peices! You will have complete ownership of these peices and are free to do whatever you want with them</p>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext-2">1 / 5</div>
+                    <h2>Price: $24.99</h2>
+                        <img src="images/final kanye album.png" style="height:30vw">
+                        <div class="text">Kanye West Album Cover</div>
+                        <p>This is a concept art for Kanye West's new album, Donda 2. This peice was made before the announcment of Donda 2, in November 2021.</p>
+                    </div>
+                  
+                    <div class="mySlides fade">
+                        <div class="numbertext-2">2 / 5</div>
+                        <h2>Price: $89.99</h2>
+                        <img src="images/shoebox.JPG" style="height:30vw">
+                        <div class="text">Shoebox</div>
+                        <p>This was a shoebox concept for Kyrie irving that I produced. Learn more about it in my portfolio <a href="" class="text-link">here</a>.</p>
+                    </div>
+                  
+                    <div class="mySlides fade">
+                        <div class="numbertext-2">3 / 5</div>
+                        <h2>Price: $19.99</h2>
+                        <img src="images/final logo (1).png" style="height:30vw">
+                        <div class="text">Seattle Lynx Logo</div>
+                        <p>This was a logo design concept for a startup sports team, the Seattle Lynx.</p>
+                    </div>
 
+                    <div class="mySlides fade">
+                        <div class="numbertext-2">4 / 5</div>
+                        <h2>Price: $1.99</h2>
+                        <img src="images/thing.JPG" style="height:30vw">
+                        <div class="text">Full Body Sketch</div>
+                        <p>This was a full body sketch that I made. It's not finished so it is offered at a discount price. If you want a finished/edited version, take a look at the commisions</p>
+                    </div>
 
-
-
-
-
+                    <div class="mySlides fade">
+                        <div class="numbertext-2">5 / 5</div>
+                        <h2>Price: $4.99</h2>
+                        <img src="images/fluctuation (1).jpg" style="height:30vw">
+                        <div class="text">Text concept</div>
+                        <p>This text idea for the word "fluctuation" is offered for just $4.99. If you prefer a different word, check out the commisions.</p>
+                    </div>
+                  
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    
+                    </div>
+                    <br>
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                        <span class="dot" onclick="currentSlide(3)"></span> 
+                        <span class="dot" onclick="currentSlide(4)"></span> 
+                        <span class="dot" onclick="currentSlide(5)"></span> 
+                    </div>
+                    <h2>Terms:</h2>
+                    <ol>
+                        <li style="font-size: 1.5vw;">You may not claim this work as your own</li>
+                        <li style="font-size: 1.5vw;">Defomation of any kind is not permitted</li>
+                        <li style="font-size: 1.5vw;">Kindly contact me before posting this online <a class="text-link" href="contact.html">here</a>.</li>
+                    </ol>
+                </div>
     <div class="footer">
         <div class="footer-info">
             <p> &copy; Zarak T | Portfolio | EPS Class of 2024 | Contact me <a href="contact.html" class="footer-link">here</a></p>
@@ -46,4 +122,33 @@
             <a href="#"><i class="fa fa-twitter"></i></a>
         </div>
     </div>  
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+    </body>
 </html>

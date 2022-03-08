@@ -10,20 +10,35 @@
 </head>
 <body>
     <div class="title-float">
-        <h1 class="title-font">Zarak Tareen</h1>
-        <p>Portfolio Website</p>
+        <h2 class="title-font">Zarak Tareen</h2>
+        <h2>Portfolio Website</h2>
     </div>
-        
     <div class="first-float">
         <div class="navholder">
-            <!--Consider a vertical nav?-->
+          <div class="navlinkholder">
             <a href="index.html" class="navlink">Home</a>
             <a href="about.html" class="navlink">About</a>
             <a href="portfolio.html" class="navlink">Portfolio</a>
             <a href="current.html" class="navlink">Current works</a>
             <a href="pricing.html" class="navlink">Pricing</a>
             <a href="contact.html" class="navlink">Contact</a>
-            <div class="box"></div>
+          </div>
+            <div class="vert-nav">
+                <div class="topnav">
+                    <a href="#home" class="active">Vertical nav</a>
+                    <div id="myLinks">
+                        <a href="index.html" class="navlink">Home</a>
+                        <a href="about.html" class="navlink">About</a>
+                        <a href="portfolio.html" class="navlink">Portfolio</a>
+                        <a href="current.html" class="navlink">Current works</a>
+                        <a href="pricing.html" class="navlink">Pricing</a>
+                        <a href="contact.html" class="navlink">Contact</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                  </div>
+            </div>
         </div>
     </div>
     <div class="gif-background">
@@ -89,5 +104,16 @@
             <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
         </div>
     </div>
+
+    <script>
+        function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+          }
+        }
+        </script>
 </body>
 </html>

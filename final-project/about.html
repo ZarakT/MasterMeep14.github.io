@@ -10,27 +10,44 @@
 </head>
 <body>
     <div class="title-float">
-        <p class="title-font">Placeholder logo</p>
-        <h1 class="title-font">ZT Portfolio</h1>
+        <h2 class="title-font">Zarak Tareen</h2>
+        <h2>Portfolio Website</h2>
     </div>
     <div class="first-float">
         <div class="navholder">
-            <!--Consider a vertical nav?-->
+          <div class="navlinkholder">
             <a href="index.html" class="navlink">Home</a>
             <a href="about.html" class="navlink">About</a>
             <a href="portfolio.html" class="navlink">Portfolio</a>
             <a href="current.html" class="navlink">Current works</a>
             <a href="pricing.html" class="navlink">Pricing</a>
             <a href="contact.html" class="navlink">Contact</a>
+          </div>
+            <div class="vert-nav">
+                <div class="topnav">
+                    <a href="#home" class="active">Vertical nav</a>
+                    <div id="myLinks">
+                        <a href="index.html" class="navlink">Home</a>
+                        <a href="about.html" class="navlink">About</a>
+                        <a href="portfolio.html" class="navlink">Portfolio</a>
+                        <a href="current.html" class="navlink">Current works</a>
+                        <a href="pricing.html" class="navlink">Pricing</a>
+                        <a href="contact.html" class="navlink">Contact</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                  </div>
+            </div>
         </div>
+    </div>
+    <div class="main-div">
+        <h1 class="large-font">About Me | My passions and life</h1>
     </div>
     <div class="fullscreenImg" style="background-image:url(images/my-pic.jpg); background-size: cover;">
         <div class="headerHeight">
         </div>
         </div>
-    <div class="main-div">
-        <h1 class="large-font">About Me | My passions and life</h1>
-    </div>
     <div class="main-div">
         <h1><u>My life as a student</u></h1>
         <p>I currently attened Eastside Prepatory School where I am a sophomore. I am a STEM focused person, but also enjoy doing other things
@@ -61,7 +78,7 @@
     <div class="last-content">
         <!--Make some icons or more appealing looking links for both-->
         <h2>You can find my Resume below</h2>
-        <button class="button-folder" style="font-size:2.5vw"><a target="_blank" class="text-link" style="color: white;" href="https://eastsidepreparatory-my.sharepoint.com/:w:/g/personal/ztareen_eastsideprep_org/EQSzuXQWuI9CvMzAT2roepkB3TRsCLp37l-qPjYpzSY1zw?e=mXsG0B">Folder </a><i class="fa fa-folder"></i></button>
+        <button class="button-folder" style="font-size:2.5vw"><a target="_blank" class="text-link" style="color: white;" href="https://eastsidepreparatory-my.sharepoint.com/:w:/g/personal/ztareen_eastsideprep_org/EQSzuXQWuI9CvMzAT2roepkB3TRsCLp37l-qPjYpzSY1zw?e=mXsG0B">Resume </a><i class="fa fa-folder"></i></button>
         <h2>And you can more about my portfolio <a href="portfolio.html" style="color: black;" class="new-link">here</a>.</h2>
     </div>
     <br>
@@ -76,5 +93,16 @@
             <a href="#"><i class="fa fa-twitter"></i></a>
         </div>
     </div>  
+
+    <script>
+        function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+          }
+        }
+        </script>
 </body>
 </html>

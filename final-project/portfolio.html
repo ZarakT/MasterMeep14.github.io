@@ -10,18 +10,35 @@
 </head>
 <body>
     <div class="title-float">
-        <p class="title-font">Placeholder logo</p>
-        <h1 class="title-font">ZT Portfolio</h1>
+        <h2 class="title-font">Zarak Tareen</h2>
+        <h2>Portfolio Website</h2>
     </div>
     <div class="first-float">
         <div class="navholder">
-            <!--Consider a vertical nav?-->
+          <div class="navlinkholder">
             <a href="index.html" class="navlink">Home</a>
             <a href="about.html" class="navlink">About</a>
             <a href="portfolio.html" class="navlink">Portfolio</a>
             <a href="current.html" class="navlink">Current works</a>
             <a href="pricing.html" class="navlink">Pricing</a>
             <a href="contact.html" class="navlink">Contact</a>
+          </div>
+            <div class="vert-nav">
+                <div class="topnav">
+                    <a href="#home" class="active">Vertical nav</a>
+                    <div id="myLinks">
+                        <a href="index.html" class="navlink">Home</a>
+                        <a href="about.html" class="navlink">About</a>
+                        <a href="portfolio.html" class="navlink">Portfolio</a>
+                        <a href="current.html" class="navlink">Current works</a>
+                        <a href="pricing.html" class="navlink">Pricing</a>
+                        <a href="contact.html" class="navlink">Contact</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                  </div>
+            </div>
         </div>
     </div>
     <div class="main-div">
@@ -29,31 +46,61 @@
         <p>Here is a portfolio of all my works. It includes my various pieces through graphic design, digital illustration, web design, and more.</p>
         <p>If you would like acess to any of these files, please contact me <a href="contact.html">here</a>.</p>
     </div>
-    <div class="content-1">
-        <p>Slideshow</p>
+    <div class="left-content-2">
+        <h2>Graphic design 2</h2>
+        <p>I just finished up a project for graphic design, where we were asked to create a retail box for a product of our choice. I chose to redesign a shoebox for nike, specifically one for Kyrie Irving.</p>
+        <p>The box is now fully completed and colored from top to bottom.</p>
     </div>
-    <div class="content-2">
-        <h3>Here is my Graphic Design 2 final. (copy paste what I had)</h3>
+    <br>
+    <div class="first-content-3">
+        <h2>Picture</h2>
+        <img class="image-sizing-5" src="images/shoebox.JPG" alt="">
+        <p>Please keep in mind that the box was designed with professionalism and artistic integrity in mind over what the individual player might be looking for in the packaging.</p>
+        <p>The box is designed to be printed and be folded together, so you can make physical copies. When fully printed out and folded, it should become a shoebox</p>
+    </div>
+    <br>
+    <div class="left-content-2">
+    <h2>First Ever website</h2>
+    <p>This is the first website I made for my class, Web design 2. It was a basketball themed page which I take lots of pride in. Lots of things like the animations really make it feel like my own.</p>
+    </div>
+    <br>
+    <div class="first-content-3">
+        <h2>Snip of the website</h2>
+        <img class="image-sizing-5" src="images/first-web.JPG" alt="">
+        <p>The website is pretty simple, with a very simplistic color palatte, some small animations to fill negative space, and just a little bit of structure with divs and tables. But it was definetly one that I enjoyed making and helped me reinvigorate my passion for web design.</p>
+    </div>
+    <br>
+    <div class="left-content-2">
+        <h2>Drawing</h2>
+        <p>This is a drawing I made in photoshop for the kanye album. I did not end up using it a lot in the final product. </p>
+    </div>
+    <br>
+    <div class="first-content-3">
+        <h2>Concept art</h2>
+        <img src="images/kanye bear.JPG" class="image-sizing-5" alt="">
+        <p>The drawing is pretty simplistic, and is lacking in some areas such as the lower torso, so I had to make it a less prominent feature of the final product. But overall I am very proud of this peice. It shows a lot about me and it also helped me find an artstyle that I am very passionate about.</p>
+    </div>
+    <div class="footer">
+        <div class="footer-info">
+            <p> &copy; Zarak T | Portfolio | EPS Class of 2024 | Contact me <a href="contact.html" class="footer-link" class="text-link">here</a></p>
+        </div>
+        <div class="footer-socials">
+            <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+        </div>
+    </div>
 
-        <!--        
-            <p>I am currently doing my final project for Graphic Design 2. Our project is to create a retail box for a product of our choice. I chose to redesign a shoebox for nike, specifically one for Kyrie Irving.</p>
-    </div>
-    <div class="second-content">
-        <h2>Graphic design</h2>
-        <p>The box still needs to be completed from the bottom and colored, but other than that it is near completion. You can also make physical copies of the box, meaning that when printed out and folded it will be the actual shape of a shoebox.</p>
-        <p>This is it in it's current state. I am currently in the process of designing it, but when finished it will hopefully look professional.</p>-->
-    </div>
-    <div class="content-1">
-        <!--Slideshow-->
-    </div>
-    <div class="content-2">
-        <!--Explination-->
-    </div>
-    <div class="content-1">
-        <!--Slideshow-->
-    </div>
-    <div class="content-2">
-        <!--Explination-->
-    </div>
+    <script>
+        function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+          }
+        }
+    </script>
 </body>
 </html>

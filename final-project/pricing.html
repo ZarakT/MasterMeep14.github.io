@@ -10,18 +10,35 @@
 </head>
 <body>
     <div class="title-float">
-        <p class="title-font">Placeholder logo</p>
-        <h1 class="title-font">ZT Portfolio</h1>
+        <h2 class="title-font">Zarak Tareen</h2>
+        <h2>Portfolio Website</h2>
     </div>
     <div class="first-float">
         <div class="navholder">
-            <!--Consider a vertical nav?-->
+          <div class="navlinkholder">
             <a href="index.html" class="navlink">Home</a>
             <a href="about.html" class="navlink">About</a>
             <a href="portfolio.html" class="navlink">Portfolio</a>
             <a href="current.html" class="navlink">Current works</a>
             <a href="pricing.html" class="navlink">Pricing</a>
             <a href="contact.html" class="navlink">Contact</a>
+          </div>
+            <div class="vert-nav">
+                <div class="topnav">
+                    <a href="#home" class="active">Vertical nav</a>
+                    <div id="myLinks">
+                        <a href="index.html" class="navlink">Home</a>
+                        <a href="about.html" class="navlink">About</a>
+                        <a href="portfolio.html" class="navlink">Portfolio</a>
+                        <a href="current.html" class="navlink">Current works</a>
+                        <a href="pricing.html" class="navlink">Pricing</a>
+                        <a href="contact.html" class="navlink">Contact</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                  </div>
+            </div>
         </div>
     </div>
 <br>
@@ -39,7 +56,7 @@
     </div>
         <div class="right-content-2">
             <h1>Commisions</h1>
-            <p>Here are the options for commissioning work! Once you are sure of what you want commissioned, please use the google drive  <a style="color: white;" href="https://docs.google.com/forms/d/e/1FAIpQLScX3UTLe4qE0OdICkIESgsgf17yr1SmySEZPx19H8c599twYw/viewform?usp=sf_link" target="_blank" class="text-link">here</a>. If there are any issues or you would prefer to contact me personally, look  <a style="color: white;" href="contact.html" target="_blank" class="text-link">here</a>. Thanks once again for your interest!</p>
+            <p>Here are the options for commissioning work! Once you are sure of what you want commissioned, please use the google drive  <a style="color: black;" href="https://docs.google.com/forms/d/e/1FAIpQLScX3UTLe4qE0OdICkIESgsgf17yr1SmySEZPx19H8c599twYw/viewform?usp=sf_link" target="_blank" class="text-link">here</a>. If there are any issues or you would prefer to contact me personally, look  <a style="color: black;" href="contact.html" target="_blank" class="text-link">here</a>. Thanks once again for your interest!</p>
             <p>Here are your options for commisions:</p>
             <ol>
                 <li style="font-size: 1.5vw;"> <u>Personalized artpeice</u> <br> A modified version of a product seen on the left (Ex: Different album cover, Shoebox design, etc). <br> <h2>Price: $29.99</h2></li>
@@ -148,6 +165,16 @@
           }
           slides[slideIndex-1].style.display = "block";  
           dots[slideIndex-1].className += " active";
+        }
+
+
+        function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+        x.style.display = "none";
+        } else {
+        x.style.display = "block";
+        }
         }
         </script>
     </body>

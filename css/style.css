@@ -1,0 +1,72 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: #544E61;
+}
+
+.header-div{
+    text-align: center;
+    width: 100%;
+    background-color: #6E8894;
+    border-radius:  0.78125vw;
+}
+
+.header-font{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 5vw;
+}
+
+.image-container {
+    background-image: url(https://raw.githubusercontent.com/MasterMeep14/MasterMeep14.github.io/main/final-project/images/my-pic.jpg);
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    opacity: 100%;
+    float: left;
+    width: 100%;
+    color: white;
+    padding: 1%;
+    margin-top: 0%;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    border-radius:  0.78125vw;
+}
+
+
+.fullscreenImg {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    height: fit-content;
+    position: relative;
+    z-index: -1;
+    background: inherit;
+    overflow: hidden;
+    background-size: cover;
+    border-radius:  0.78125vw;
+}
+
+.first-div{
+    background-color: #CEEDDB;
+    width: 49%;
+    float: left;
+    padding: 1%;
+    border-radius:  0.78125vw;
+}
+
+.main-div{
+    width: 100%;
+    background-color: #6E8894;
+    text-align: center;
+}
+
+.gif-background {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    padding: 1%;
+    border-radius:  0.78125vw;
+}

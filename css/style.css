@@ -1,16 +1,22 @@
 *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0;
+    padding:0;
 }
 
 body{
-    background-color: #544E61;
+    background-color: rgb(246, 171, 160);
 }
 
 .header-div{
     text-align: center;
     width: 100%;
-    background-color: #6E8894;
-    border-radius:  0.78125vw;
+    background-color: rgb(225, 129, 119);
+    border-radius:  0 0 0.78125vw 0.78125vw;
+    top:0;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    margin-bottom: 2vw;
 }
 
 .header-font{
@@ -49,24 +55,62 @@ body{
 }
 
 .first-div{
-    background-color: #CEEDDB;
-    width: 49%;
+    background: none;
+    width: 47%;
     float: left;
     padding: 1%;
-    border-radius:  0.78125vw;
+    border-width: 0.25vw;
+    border-color: black;
+    border-style: solid;
+    border-radius: 0.78125vw;
+    text-align: center;
+    margin-top: 2vw;
 }
+
+
+.second-div{
+    background: none;
+    width: 47%;
+    float: right;
+    padding: 1%;
+    border-width: 0.25vw;
+    border-color: black;
+    border-style: solid;
+    border-radius: 0.78125vw;
+    text-align: center;
+    margin-top: 2vw;
+}
+
 
 .main-div{
     width: 100%;
-    background-color: #6E8894;
+    background:none;
+    text-align: center;
+}
+
+.main-div-2{
+    width: 100%;
+    float: left;
+    border-width: 0.25vw;
+    border-color: black;
+    border-style: solid;
+    border-radius: 0.78125vw;
+    margin-top: 2vw;
+    background:none;
     text-align: center;
 }
 
 .gif-background {
-    background-image: url();
+    background-image: url(https://github.com/MasterMeep14/MasterMeep14.github.io/blob/main/final-project/images/doggie-corgi-anime-live-wallpaper.gif?raw=true);
     background-repeat: no-repeat;
     background-size: auto;
-    width: 100%;
+    width: 98%;
+    height: 20vw;
     padding: 1%;
     border-radius:  0.78125vw;
+}
+
+.link-text{
+    text-decoration: none;
+    color: black;
 }

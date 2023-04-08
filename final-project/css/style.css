@@ -675,3 +675,7 @@ img {vertical-align: middle;}
       margin-top: unset;
       }
   }
+
+.listnormal{
+    font-size: 15px;
+}
